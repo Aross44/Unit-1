@@ -83,13 +83,37 @@ mkdir drinks
 rm -r drinks
 
 ### Step 4
-
+amberross@4444 unit1-git-practice % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
 
 ### Step 5
-
+amberross@4444 unit1-git-practice % git push -u origin main
+Username for 'https://github.com': Aross44
+Password for 'https://Aross44@github.com': 
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (14/14), 2.23 KiB | 2.23 MiB/s, done.
+Total 14 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/Aross44/Unit-1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'
 
 ### Step 6
+amberross@4444 unit1-git-practice % git init
+Reinitialized existing Git repository in /Users/amberross/Desktop/unit1-git-practice/.git/
+amberross@4444 unit1-git-practice % cd/path/to/your/project
+zsh: no such file or directory: cd/path/to/your/project
+amberross@4444 unit1-git-practice % cd /path/to/your/project
+cd: no such file or directory: /path/to/your/project
 
-
+amberross@4444 unit1-git-practice % ls
+README.md	my-steps.txt	plants		proteins	sweets		veggies
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
